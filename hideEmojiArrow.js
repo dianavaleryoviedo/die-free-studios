@@ -1,1 +1,0 @@
-(()=>{const e=()=>{if(window.innerWidth<=768)document.querySelectorAll("*").forEach(o=>{o.childNodes.length&&o.childNodes.forEach(n=>{1===n.nodeType||!n.textContent.includes("↗")||(n.textContent=n.textContent.replace(/↗/g,""))})})};e(),window.addEventListener("resize",e)})();
